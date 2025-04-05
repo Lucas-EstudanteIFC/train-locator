@@ -15,13 +15,10 @@ Equipe:
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação](https://github.com/Lucas-EstudanteIFC/train-locator.git)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/Lucas-EstudanteIFC/train-locator-backend.git) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/Lucas-EstudanteIFC/train-locator-frontend.git) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 # 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 
 **1.1 Modelos de Sistemas**
 
@@ -30,31 +27,13 @@ Links do projeto:
 **1.1.3 Ordem de Serviço (O.S.)**
 
 **Localização de Trem**
+Será um sistema que busca que usuários consigam pontuar momentos em que trens passem, utilizando o sistema de localização dos seus aparelhos, e notifiquem outros usuários que estiverem com o aplicativo aberto, mesmo que em segundo plano. Os motivos de escolher esse tema são dois: 1) Um grande problema do trem local de Joinville que frequentemente atrasa o trânsito da cidade, assim como outras cidades que possuem trens que as atravessam; 2) Nenhuma solução, seja privada ou pública, para ao menos viabilizar, já que o trem vem em momentos quase aleatórios, então um sistema que pudesse auxiliar a notificação da passagem dele seria importante para todos os cidadãos. É um projeto de escala local, mas sinto que seja necessário enquanto não existir uma solução permanente.
 
-Júlio é dono de uma empresa de tecnologia que possui um código de atrasado rigosoro, esperando disposição dos seus funcionários para chegarem na empresa até determinado horário, com limite de até 7h30. Entretando, em dias e horários completamente aleatórios, o trem local, que atravessa a cidade, passa, atrasando diversos funcionários seus. Ele deseja um sistema que permita a notificação e localização do trem para que seus funcionários consigam se preparar previamente, sem ter que se preocupar com engarrafamentos, mas que também saiam em horários viáveis para eles e serem mais produtivos durante o horário de trabalho.
 
 # 2. Situação Problema
-
-//Ainda em desenvolvimento//
-
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
-
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
-
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
-
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
-
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+Júlio é dono de uma empresa de tecnologia de Joinville que possui um código de atrasado rigosoro, esperando disposição dos seus funcionários para chegarem na empresa até determinado horário, com limite de até 7h30. Na maior parte dos dias, em todos os 10 anos de funcionalidade, eles conseguem chegar até o horário limite.
+Entretando, em dias e horários completamente aleatórios, o trem local, que atravessa a cidade, passa, atrasando diversos funcionários seus. Ele deseja um sistema que permita a notificação e localização do trem para que seus funcionários consigam se preparar previamente, sem ter que se preocupar com engarrafamentos, mas que também saiam em horários viáveis para eles e serem mais produtivos durante o horário de trabalho.
+Para resolver o problema, um software que pudesse avisar seus usuários sobre a passagem do trem, contendo a localização e horário em que foi avistado, permitiria que eles pudessem se preparar e ir em momentos mais oportunos, sem a necessidade de ter que enfrentar engarrafamentos. 
 
 # 3. Descrição da proposta
 
